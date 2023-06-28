@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TrabalhoMark01</string>
+
+    <string name="entrar">Enter</string>
+    <string name="text_cadastro">Create an account by clicking here</string>
+    <string name="Title_cadastro">Registration Screen</string>
+    <string name="Title_ResetSenha">Password recovery</string>
+    <string name="cadastrar">Register</string>
+    <string name="reset">Password recovery</string>
+    <string name="text_planos">Plans</string>
+    <string name="text_treino_semanal">Weekly Training</string>
+    <string name="text_dicas_dieta">Tips for your diet</string>
+    <string name="text_sair">Logout</string>
+    <string name="text_pagamentos">Card Data</string>
+    <string name="text_recuperar_senha">Recover Password</string>
+    <string name="text_salvar_dados_cartao">Save</string>
+    <string name="hint_senha">Password</string>
+    <string name="hint_nome">Name</string>
+    <string name="hint_telefone">Phone</string>
+    <string name="hint_CPF">ID</string>
+    <string name="plano1">Bronze Plan - R$39.90 - Annual: 12x of R$35.90 - Gym only</string>
+    <string name="plano2">Silver Plan - R$69.90 - Annual: 12x of R$62.90 - Gym, Dance</string>
+    <string name="plano3">Gold Plan - R$109.90 - Annual: 12x of R$71.99 - Gym, Dance, Pool</string>
+    <string name="desconto">Discount 10% on annual subscriptions</string>
+    <string name="numero_cartao">Card Number</string>
+    <string name="validade_cartao">Validity</string>
+    <string name="cod_seg_cartao">CVV</string>
+
+    <string name="title_seg">Monday</string>
+    <string name="title_terc">Tuesday</string>
+    <string name="title_qua">Wednesday</string>
+    <string name="title_qui">Thursday</string>
+    <string name="title_sex">Friday</string>
+    <string name="title_sab">Saturday</string>
+    <string name="title_dom">Sunday</string>
+
+    <string name="title_cafe_manha">Breakfast</string>
+    <string name="title_almoco">Lunch</string>
+    <string name="title_cafe_tarde">Coffee break</string>
+    <string name="title_janta">Dinner</string>
+    <string name="title_agua">Drink it water!</string>
+
+    <string name="text_treino1">Arm and Back:\n\n•Fixed bar or graviton bar 5 sets 8-10 reps\n\n•Alternate curl - 4 sets 8-10 reps\n\n•Direct curl on cable - 3 sets 8-10 reps\n\n•High pull 3 sets 8-10 reps\n\n•Rowing Triangle Drop 4 Sets 8-10 reps\n\n•Scott Curl: 3 Sets 10-reps</string>
+    <string name="text_treino2">Chest and Triceps:\n\n•Bench press – 5 sets 8-10 reps\n\n•Dumbbell incline bench press – 4 sets 8-10 reps\n\n•Rope triceps press – 3 sets 8-10 reps\n\n•Lateral raise – 3 sets 8-10 reps\n\n•Peck deck fly – 3 sets 8-10 reps</string>
+    <string name="text_treino3">Leg and Abs:\n\n•Squat 5 Series 8-10 reps\n\n•Leg Press 4 Series 8-10 reps\n\n•Extensor 3 Series 8-10 reps\n\n•Abdominal crunch machine 3 Series 8-10 reps\n\n•Oblique Abdominal machine 3 Series 8-10 reps</string>
+    <string name="text_treino4">Repeat Arm and Back:\n\n•Fixed or graviton bar 5 sets 8-10 reps\n\n•Alternate curl - 4 sets 8-10 reps\n\n•Direct curl on cable - 3 Sets 8-10 reps\n\n•High pull 3 Sets 8-10 reps\n\n•Low Triangle Row 4 Sets 8-10 reps\n\n•Scott Curl: 3 Sets 10-reps</string>
+    <string name="text_treino5">Repeat Chest and Triceps:\n\n•Bench Press – 5 Sets 8-10 reps\n\n•Dumbbell Incline Press – 4 Sets 8-10 reps\n\n•Rope Triceps Press – 3 Sets 8-10 reps\n\n•Lateral Raise – 3 Sets 8-10 reps\n\n•Peck Deck fly – 3 sets 8-10 reps</string>
+    <string name="text_treino6">Repeat Leg and Abs:\n\n•Squat 5 Series 8-10 reps\n\n•Leg Press 4 Series 8-10 reps\n\n•Extensor 3 Series 8-10 reps\n\n•Abdominal crunch machine 3 Series 8-10 reps\n\n•Obliquous Abdominal Machine 3 Series 8- 10 reps</string>
+    <string name="text_treino7">cardiopathy 30-45-60 minute walk or Rest</string>
+
+    <string name="text_dieta1">Foods for your pre-workout breakfast:\n\n•Banana - is the ideal food for those with little time before training;\n\n•Tapioca - is a complex carbohydrate , of low absorption, so it is ideal to be consumed at least 1 hour before training, to give time to supply energy sources;\n\n•Yogurt with dried fruits - they are simple and sugary carbohydrates, they are great options for replenish energy quickly.</string>
+    <string name="text_dieta2">Foods that help gain muscle mass:\n\n•High in protein: meat, fish, eggs and chicken. For vegetarians and vegans: beans, peas, chickpeas, lentils, soybeans.\n\n•Rich in carbohydrates: rice, pasta, potatoes, cassava, yams, bread, tapioca and fruits.\n\n•Rich in “good fat”: extra virgin olive oil, avocado, and oilseeds (nuts, walnuts, almonds).\n\n•The main sources of vitamins and minerals: fruits, vegetables and leafy vegetables.</string>
+    <string name="text_dieta3">Foods for your pre-workout coffee break:\n\n•Fruit juice - lighter for pre-workout, fruit juice is a great option. They are practical and easy to digest, providing energy and stimulating muscle recovery;\n\n•Whole grains - Another food group with a low glycemic index is whole grains. So, putting oatmeal in yogurt is always a good choice;\n\n•Brown bread - Bread has been reviled a lot, but when you opt for whole-grain bread, you are promoting a series of benefits for your health.</string>
+    <string name="text_dieta4">Foods for your dinner:\n\n•Option 1: chicken crepioca (eggs and tapioca).\n\n•Option 2: tuna pate or chicken sandwich.\n \n•Option 3: omelette with carrots, peas and corn.\n\n•Option 4: chicken wrap (or flatbread), with lettuce and tomato.</string>
+    <string name="text_dieta5">Why do gym-goers have to drink plenty of water?\n\n•Exercises at the gym cause sweating;\n\n•Sweating leads to loss of water and electrolytes;\n\n •Adequate replacement of these losses is important for the functioning of the body.\n\n•Drinking plenty of water maintains hydration during and after training.</string>
+
+    <string name="enviar">Send</string>
+
+</resources>

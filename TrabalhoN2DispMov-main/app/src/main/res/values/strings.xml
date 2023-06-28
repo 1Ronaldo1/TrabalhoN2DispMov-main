@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TrabalhoMark01</string>
+
+    <string name="entrar">Entrar</string>
+    <string name="text_cadastro">Crie uma conta clicando aqui</string>
+    <string name="Title_cadastro">Tela de Cadastro</string>
+    <string name="Title_ResetSenha">Recuperação de senha</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="reset">Recuperação de Senha</string>
+    <string name="text_planos">Planos</string>
+    <string name="text_treino_semanal">Treino Semanal</string>
+    <string name="text_dicas_dieta">Dicas para sua dieta</string>
+    <string name="text_sair">Sair</string>
+    <string name="text_pagamentos">Dados Cartão</string>
+    <string name="text_recuperar_senha">Recuperar Senha</string>
+    <string name="text_salvar_dados_cartao">Salvar</string>
+    <string name="hint_senha">Senha</string>
+    <string name="hint_nome">Nome</string>
+    <string name="hint_telefone">Telefone</string>
+    <string name="hint_CPF">CPF</string>
+    <string name="plano1">Plano Bronze - R$39,90 - Anual: 12x de R$35,90 - Somente Academia</string>
+    <string name="plano2">Plano Prata - R$69,90 - Anual: 12x de R$62,90 - Academia, Dança</string>
+    <string name="plano3">Plano Ouro - R$109,90 - Anual: 12x de R$71,99 - Academia, Dança, Piscina</string>
+    <string name="desconto">Descontos de 10% em mensalidades anuais</string>
+    <string name="numero_cartao">Número Cartão</string>
+    <string name="validade_cartao">Validade</string>
+    <string name="cod_seg_cartao">Cód. Seg</string>
+
+    <string name="title_seg">Segunda</string>
+    <string name="title_terc">Terça</string>
+    <string name="title_qua">Quarta</string>
+    <string name="title_qui">Quinta</string>
+    <string name="title_sex">Sexta</string>
+    <string name="title_sab">Sábado</string>
+    <string name="title_dom">Domingo</string>
+
+    <string name="title_cafe_manha">Café da Manhã</string>
+    <string name="title_almoco">Almoço</string>
+    <string name="title_cafe_tarde">Café da Tarde</string>
+    <string name="title_janta">Jantar</string>
+    <string name="title_agua">Beba água!</string>
+
+    <string name="text_treino1">Braço e Costas:\n\n•Barra fixa ou graviton 5 séries 8-10 reps\n\n•Rosca alternada - 4 séries 8-10 reps\n\n•Rosca direta no cabo - 3 Séries 8-10 reps\n\n•Puxada alta 3 Séries 8-10 reps\n\n•Remada baixa no triângulo 4 Séries 8-10 reps\n\n•Rosca Scott: 3 Séries 10-reps</string>
+    <string name="text_treino2">Peito e Tríceps:\n\n•Supino – 5 Séries 8-10 reps\n\n•Supino inclinado halteres – 4 Séries 8-10 reps\n\n•Tríceps corda – 3 Séries 8-10 reps\n\n•Elevação lateral – 3 Séries 8-10 reps\n\n•Peck deck fly – 3 Séries 8-10 reps</string>
+    <string name="text_treino3">Perna e Abdominal:\n\n•Agachamento 5 Séries 8-10 reps\n\n•Leg Press 4 Séries 8-10 reps\n\n•Extensora 3 Séries 8-10 reps\n\n•Abdominal crunch máquina 3 Séries 8-10 reps\n\n•Abdominal oblíquo máquina 3 Séries 8-10 reps</string>
+    <string name="text_treino4">Repete Braço e Costas:\n\n•Barra fixa ou graviton 5 séries 8-10 reps\n\n•Rosca alternada - 4 séries 8-10 reps\n\n•Rosca direta no cabo - 3 Séries 8-10 reps\n\n•Puxada alta 3 Séries 8-10 reps\n\n•Remada baixa no triângulo 4 Séries 8-10 reps\n\n•Rosca Scott: 3 Séries 10-reps</string>
+    <string name="text_treino5">Repete Peito e Tríceps:\n\n•Supino – 5 Séries 8-10 reps\n\n•Supino inclinado halteres – 4 Séries 8-10 reps\n\n•Tríceps corda – 3 Séries 8-10 reps\n\n•Elevação lateral – 3 Séries 8-10 reps\n\n•Peck deck fly – 3 séries  8-10 reps</string>
+    <string name="text_treino6">Repete Perna e Abdominal:\n\n•Agachamento 5 Séries 8-10 reps\n\n•Leg Press 4 Séries 8-10 reps\n\n•Extensora 3 Séries 8-10 reps\n\n•Abdominal crunch máquina 3 Séries 8-10 reps\n\n•Abdominal oblíquo máquina 3 Séries 8-10 reps</string>
+    <string name="text_treino7">Cardio caminhada de 30-45-60 minutos ou Descansar</string>
+
+    <string name="text_dieta1">Alimentos para o seu café da manhã pré-treino:\n\n•Banana - é o alimento ideal para quem tem pouco tempo antes do treino;\n\n•Tapioca - é um carboidrato complexo, de baixa absorção, por isso é ideal para ser consumida pelo menos 1 hora antes do treino, para dar tempo de abastecer as fontes de energia;\n\n•Iogurte com frutas secas - são carboidratos simples e açucarados, são ótimas opções para repor as energias de forma rápida.</string>
+    <string name="text_dieta2">Alimentos que ajudam a ganhar massa muscular:\n\n•Ricos em proteínas: carnes, peixes, ovos e frango. Para os vegetarianos e veganos: feijão, ervilha, grão de bico, lentilha, soja.\n\n•Ricos em carboidratos: arroz, macarrão, batata, aipim, inhame, pão, tapioca e frutas.\n\n•Ricos em “gordura boa”: azeite de oliva extravirgem, abacate, e oleaginosas(castanhas, nozes, amêndoas).\n\n•As principais fontes de vitaminas e minerais: frutas, verduras e folhosos.</string>
+    <string name="text_dieta3">Alimentos para o seu café da tarde pré-treino:\n\n•Suco de frutas - mais leve para antes do treino, o suco de frutas é uma ótima opção. Eles são práticos e de fácil digestão, fornecendo energia e estimulando a recuperação dos músculos;\n\n•Grãos integrais - Outro grupo de alimentos com baixo índice glicêmico é o de grãos integrais. Então, colocar aveia no iogurte é sempre uma boa pedida;\n\n•Pão integral - O pão já foi muito vilanizado, mas quando você opta pelo pão integral, está promovendo uma série de benefícios para a sua saúde.</string>
+    <string name="text_dieta4">Alimentos para o seu jantar:\n\n•Opção 1: crepioca (ovos e tapioca) de frango.\n\n•Opção 2: sanduíche de patê de atum ou de frango.\n\n•Opção 3: omelete com cenoura, ervilha e milho.\n\n•Opção 4: wrap de frango (ou pão sírio), com alface e tomate.</string>
+    <string name="text_dieta5">Por que quem faz academia tem que tomar bastante água?\n\n•Exercícios físicos na academia causam transpiração;\n\n•A transpiração leva à perda de água e eletrólitos;\n\n•A reposição adequada dessas perdas é importante para o funcionamento do organismo.\n\n•Beber bastante água mantém a hidratação durante e após o treino.</string>
+
+    <string name="enviar">Enviar</string>
+
+</resources>

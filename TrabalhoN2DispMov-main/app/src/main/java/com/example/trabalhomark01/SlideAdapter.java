@@ -1,0 +1,100 @@
+package com.example.trabalhomark01;
+
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.viewpager.widget.PagerAdapter;
+
+public class SlideAdapter extends PagerAdapter {
+
+    //Objetos
+    Context context;
+    LayoutInflater layoutInflater;
+
+    public SlideAdapter(Context context){
+        this.context = context;
+    }
+
+    //Arrays de cada posicao das imagens e salva os valores nessas posições
+    public int[] slide_images = {
+            R.drawable.segunda,
+            R.drawable.terca,
+            R.drawable.quarta,
+            R.drawable.quinta,
+            R.drawable.sexta,
+            R.drawable.sabado,
+            R.drawable.domingo
+    };
+
+    //Arrays de cada posicao das Strings dos títulos e salva os valores nessas posições
+    public int[] slide_headings = {
+            R.string.title_seg,
+            R.string.title_terc,
+            R.string.title_qua,
+            R.string.title_qui,
+            R.string.title_sex,
+            R.string.title_sab,
+            R.string.title_dom
+    };
+
+    //Arrays de cada posicao das descrições e salva os valores nessas posições
+    public int[] slide_descs = {
+            R.string.text_treino1,
+            R.string.text_treino2,
+            R.string.text_treino3,
+            R.string.text_treino4,
+            R.string.text_treino5,
+            R.string.text_treino6,
+            R.string.text_treino7
+    };
+
+
+    @Override
+    //Conta o número
+    public int getCount() {
+        return slide_headings.length;
+    }
+
+    @Override
+    public boolean isViewFromObject(View view, Object o) {
+        return view == (RelativeLayout) o;
+    }
+
+    @Override
+    //Método que adiciona o efeito dos slide em cada utilizando o LAYOUT INFLATER
+    public Object instantiateItem(ViewGroup container, int position) {
+        layoutInflater = (LayoutInflater) context.getSystemService(context.LAYOUT_INFLATER_SERVICE);
+        View view = layoutInflater.inflate(R.layout.slide_layout, container, false);
+
+        //Inicia todos os IDs de imagem, descrição e icones
+        ImageView slideImageView = (ImageView) view.findViewById(R.id.slide_image);
+        TextView slideHeading = (TextView) view.findViewById(R.id.slide_heading);
+        TextView slideDescription = (TextView) view.findViewById(R.id.slide_desc);
+
+        //Passa os Arrays com a posição que esta instanciada, cada vez q um slide passar ele vai
+        //Selecionar a imagem de acordo com a posição da imagem
+        slideImageView.setImageResource(slide_images[position]);
+        slideHeading.setText(slide_headings[position]);
+        slideDescription.setText(slide_descs[position]);
+
+        //Adiciona o container e a view desses slides
+        container.addView(view);
+
+        return view;
+    }
+
+    @Override
+    //Método quando chegar a ultima pagina vai parar, e impedir que seja criada novos slides
+    //impedindo erros
+    public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
+        //remove a view do objeto no RelativeLayout
+        container.removeView((RelativeLayout) object);
+
+    }
+}

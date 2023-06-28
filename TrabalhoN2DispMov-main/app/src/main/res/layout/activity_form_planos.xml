@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".FormPlanos">
+
+    <TextView
+        android:id="@+id/title_planos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_planos"
+        android:textSize="50sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <View
+        android:id="@+id/Container_planos"
+        style="@style/ContainerComponents"
+        android:layout_height="530dp"
+        app:layout_constraintTop_toBottomOf="@id/title_planos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Layout Checkbox do Plano Bronze -->
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="354dp"
+        android:layout_height="145dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toTopOf="@+id/Container_planos"
+        app:layout_constraintStart_toStartOf="@+id/Container_planos"
+        app:layout_constraintEnd_toEndOf="@id/Container_planos"
+        >
+
+        <RadioButton
+            android:id="@+id/plano_bronze"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/plano1"
+            app:layout_constraintEnd_toEndOf="@id/Container_planos"
+            app:layout_constraintStart_toStartOf="@id/Container_planos"
+            app:layout_constraintTop_toTopOf="@id/Container_planos" />
+
+        <!-- Layout Checkbox do Plano Prata -->
+
+        <RadioButton
+            android:id="@+id/plano_prata"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/plano2"
+            app:layout_constraintEnd_toEndOf="@id/Container_planos"
+            app:layout_constraintStart_toStartOf="@id/Container_planos"
+            app:layout_constraintTop_toBottomOf="@id/plano_bronze" />
+
+        <!-- Layout Checkbox do Plano Ouro -->
+        <RadioButton
+            android:id="@+id/plano_ouro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/plano3"
+            app:layout_constraintEnd_toEndOf="@id/Container_planos"
+            app:layout_constraintStart_toStartOf="@id/Container_planos"
+            app:layout_constraintTop_toBottomOf="@id/plano_prata" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/desconto"
+        android:layout_width="352dp"
+        android:layout_height="21dp"
+        android:text="@string/desconto"
+        android:textAlignment="textEnd"
+        android:textSize="11dp"
+        app:layout_constraintTop_toBottomOf="@id/radiogroup"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <TextView
+        android:id="@+id/title_Pagamentos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_pagamentos"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/desconto"
+        app:layout_constraintStart_toStartOf="@id/Container_planos"
+        app:layout_constraintEnd_toEndOf="@id/Container_planos"
+        android:layout_marginTop="20sp"/>
+
+    <EditText
+        android:id="@+id/num_cartao"
+        style="@style/Edit_Text"
+        android:hint="@string/numero_cartao"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/Container_planos"
+        app:layout_constraintStart_toStartOf="@id/Container_planos"
+        app:layout_constraintTop_toBottomOf="@id/title_Pagamentos" />
+
+    <EditText
+        android:id="@+id/num_val_cartao"
+        style="@style/Edit_Text"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="240dp"
+        android:hint="@string/validade_cartao"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@id/Container_planos"
+        app:layout_constraintStart_toStartOf="@id/Container_planos"
+        app:layout_constraintTop_toBottomOf="@id/num_cartao" />
+
+    <EditText
+        android:id="@+id/num_seg_cartao"
+        style="@style/Edit_Text"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:hint="@string/cod_seg_cartao"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/Container_planos"
+        app:layout_constraintStart_toStartOf="@id/Container_planos"
+        app:layout_constraintTop_toBottomOf="@id/num_cartao" />
+
+    <Button
+    android:id="@+id/bt_salvar_dados_cartao"
+    style="@style/Button"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/button"
+    android:text="@string/text_salvar_dados_cartao"
+    app:backgroundTint="@null"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/num_seg_cartao" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
